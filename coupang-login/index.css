@@ -1,0 +1,162 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+ }
+
+
+.Main{ 
+    height: 63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+img{
+    margin-bottom: 100px;
+    margin: 0;
+   
+}
+.Main img {
+    cursor: pointer;
+}
+/* .CheckBox{
+    position: relative;
+    margin: 15px 0 0 0;
+}
+.CheckBox .CB{
+    float: left;
+    height: 24px;
+    width: 24px;
+} */
+.LoGo{
+    width: 195px;
+    height: 46px;
+}
+
+.iconBoxinnerIcon{
+    border: #ccc solid 1px;
+    height: 45px;  
+    display: flex;
+    align-items: center;
+    text-align: center;       /*세로*/
+    justify-content: center;  /*가로 */
+    padding: 0 4px;
+}
+.write,
+.write2 {
+    height: 43px;
+    width: 385px;
+    font-size: 14px;
+    font-weight: 600;
+    text-indent: 12px;
+    border: 1px solid #ccc;
+}
+
+.first {
+    margin: 25px 0 12px 0;
+    
+}
+.BT{
+    margin: 15px 0px;
+    border: 0px;
+    background-color: #0074e9;
+    width: 100%;
+    height: 52px;
+    
+    font-size: 17px;
+    color: white;
+    font-weight: bold;   
+    padding: 0;
+
+    border-bottom: 3px solid #2d488b;
+    border-radius: 3px;
+    border-bottom: 3px solid #2d488b;
+
+}
+
+.autoLogin{
+    /* position: absolute;
+    margin-left: -50px;
+    margin-top: 4px; */
+}
+
+.left{
+    position: relative;
+    left: -30px;
+}
+
+.informBox{
+    display: flex;
+    align-items:center;
+    margin-top: 15px;
+    position: relative;
+    left: -40px;
+    
+}
+.CheckBox{
+    width: 100px;
+}
+
+.CB{
+    height: 23px;
+    width: 23px;
+}
+
+.autoLogin{
+    left: -34px;
+    color:#555;
+    
+}
+
+
+
+.newLogin{
+    position: relative;
+    left:55px;
+    color: #0073e9;
+    cursor: pointer;
+}
+
+.line{
+    border-top: 1px solid black;
+    position:relative;
+    top:5px;
+}
+
+.new_Person{
+    position: relative;
+    top:20px;
+    width: 100%;
+    height: 52px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    background-color: white;
+
+    
+
+    border-bottom: 3px solid #ccc;
+}
+
+.text{
+
+    position:relative;
+    font-size:10px;
+    top:30px;
+}
+
+.new_Person,
+.BT{
+    cursor: pointer;
+
+}
+.iconBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.iconBoxinnerIcon{
+    width: 10%;
+}
